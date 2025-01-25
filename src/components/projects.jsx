@@ -1,5 +1,5 @@
 import imageUpload from "../images/image-uploaded.png";
-import authorBook from "../images/author-book.png";
+// import authorBook from "../images/author-book.png";
 import easybank from "../images/easybank.png";
 import multiStepForm from "../images/multi-step-form.png";
 import taskManagement from "../images/task-management-2.png";
@@ -93,7 +93,7 @@ const ProjectsComponent = (props) => {
         </div>
       </div>
 
-      <div
+      {/* <div
         className={`projects-container ${
           width <= 575 ? "" : hide === 2 ? "" : "hide"
         }`}
@@ -125,7 +125,7 @@ const ProjectsComponent = (props) => {
             </p>
           </p>
         </div>
-      </div>
+      </div> */}
 
       <div
         className={`projects-container ${

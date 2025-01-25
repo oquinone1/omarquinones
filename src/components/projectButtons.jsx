@@ -27,7 +27,7 @@ const ProjectButtonsComponent = (props) => {
             Multi-Step Form
           </Button>
         </li>
-        <li className="project-names">
+        {/* <li className="project-names">
           <Button
             variant="text"
             size="small"
@@ -36,7 +36,7 @@ const ProjectButtonsComponent = (props) => {
           >
             Author Management
           </Button>
-        </li>
+        </li> */}
         <li className="project-names">
           <Button
             variant="text"
