@@ -21,7 +21,7 @@ const ProjectsComponent = (props) => {
         </p>
       </div>
 
-      <div
+      {/* <div
         className={`projects-container ${
           width <= 575 ? "" : hide === 5 ? "" : "hide"
         }`}
@@ -60,9 +60,9 @@ const ProjectsComponent = (props) => {
             </p>
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div
+      {/* <div
         className={`projects-container ${
           width <= 575 ? "" : hide === 4 ? "" : "hide"
         }`}
@@ -91,7 +91,7 @@ const ProjectsComponent = (props) => {
             <p>Tech used: React, Sass, Material UI, Zustand</p>
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* <div
         className={`projects-container ${
@@ -127,7 +127,7 @@ const ProjectsComponent = (props) => {
         </div>
       </div> */}
 
-      <div
+      {/* <div
         className={`projects-container ${
           width <= 575 ? "" : hide === 1 ? "" : "hide"
         }`}
@@ -166,9 +166,9 @@ const ProjectsComponent = (props) => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div
+      {/* <div
         className={`projects-container ${
           width <= 575 ? "" : hide === 3 ? "" : "hide"
         }`}
@@ -194,7 +194,7 @@ const ProjectsComponent = (props) => {
             <p>Tech used: React, CSS, Sass, React-Bootstrap</p>
           </p>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
