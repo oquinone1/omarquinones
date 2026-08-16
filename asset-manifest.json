@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6893a7db.css",
-    "main.js": "/static/js/main.29eedea1.js",
+    "main.js": "/static/js/main.ad40c82c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/image-uploaded.png": "/static/media/image-uploaded.3ba890666fe23b38a1c1.png",
     "static/media/easybank.png": "/static/media/easybank.192cbca2bb3305248704.png",
@@ -10,11 +10,11 @@
     "index.html": "/index.html",
     "static/media/freeCodeCampIcon.svg": "/static/media/freeCodeCampIcon.9fae4f65389de4dcb934d66ba08cb15b.svg",
     "main.6893a7db.css.map": "/static/css/main.6893a7db.css.map",
-    "main.29eedea1.js.map": "/static/js/main.29eedea1.js.map",
+    "main.ad40c82c.js.map": "/static/js/main.ad40c82c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6893a7db.css",
-    "static/js/main.29eedea1.js"
+    "static/js/main.ad40c82c.js"
   ]
 }
