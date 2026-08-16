@@ -14,10 +14,7 @@ const ProjectsComponent = (props) => {
       >
         <h1 id="welcome-text">Welcome.</h1>
         <p id="welcome-paragraph">
-          My name is Omar, and I am a software engineer specializing in building
-          frontend applications with React and TypeScript. I am passionate about
-          crafting seamless user experiences and bringing innovative web
-          solutions to life.
+        My name is Omar, and I am a full-stack software engineer with 5 years of experience building production systems — from IoT device APIs and real-time data pipelines to full-scale ERP platforms. I work across the stack with Angular, React, Node.js, and Express, and I'm expanding into Python. I'm passionate about architecting reliable, scalable systems and solving the hard problems that live behind the interface.
         </p>
       </div>
 
