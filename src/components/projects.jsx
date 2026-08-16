@@ -14,7 +14,7 @@ const ProjectsComponent = (props) => {
       >
         <h1 id="welcome-text">Welcome.</h1>
         <p id="welcome-paragraph">
-        My name is Omar, and I am a full-stack software engineer with 5 years of experience building production systems — from IoT device APIs and real-time data pipelines to full-scale ERP platforms. I work across the stack with Angular, React, Node.js, and Express, and I'm expanding into Python. I'm passionate about architecting reliable, scalable systems and solving the hard problems that live behind the interface.
+        My name is Omar, and I am a full-stack software engineer with almost 5 years of experience building production systems — from IoT device APIs and real-time data pipelines to full-scale ERP platforms. I work across the stack with Angular, React, Node.js, and Express, and I'm expanding into Python. I'm passionate about architecting reliable, scalable systems and solving the hard problems that live behind the interface.
         </p>
       </div>
 
@@ -39,7 +39,7 @@ const ProjectsComponent = (props) => {
             </a>
           </div>
           <p className="project-description">
-            Designed and developed a fullstack Jira-like task management system
+            {/* Designed and developed a fullstack Jira-like task management system
             web app. Built the frontend using React and TypeScript, enabling
             users to create multiple projects. Within each project, users can
             add customizable columns to represent task statuses and create tasks
@@ -48,12 +48,11 @@ const ProjectsComponent = (props) => {
             Developed the backend in Go with efficient CRUD APIs to manage
             project data, columns, and tasks. Integrated MongoDB for data
             storage and retrieval, ensuring high performance and data
-            persistence.
+            persistence. */}
             <br />
             <br />
             <p>
-              Tech used: React, TypeScript, Tailwind CSS, Ant Design, Zustand,
-              Go, MongoDB, Vite
+              Tech used: Django, Postgresql, React, TypeScript, Tailwind CSS, Ant Design, Zustand, Vite
             </p>
           </p>
         </div>
@@ -80,9 +79,9 @@ const ProjectsComponent = (props) => {
             </a>
           </div>
           <p className="project-description">
-            Developed a responsive, mobile first approach, multi-step form with
+            {/* Developed a responsive, mobile first approach, multi-step form with
             a focus on accessibility, achieving a 100% score on Google Chromes
-            Lighthouse Accessibility audit by using ARIA and Semantic HTML
+            Lighthouse Accessibility audit by using ARIA and Semantic HTML */}
             <br />
             <br />
             <p>Tech used: React, Sass, Material UI, Zustand</p>
@@ -146,14 +145,14 @@ const ProjectsComponent = (props) => {
           </div>
           <div>
             <p className="project-description">
-              My goal for this project was to create a Full Stack application.
+              {/* My goal for this project was to create a Full Stack application.
               <br />
               The project's functionality includes user sign-up and login
               features. A user is authenticated using a JSON Web Token. Once
               authenticated, the user is directed to a profile page designed to
               resemble Instagram's profile interface. On this profile page,
               users can upload images to their profile. Additionally, users can
-              update their bio and change their profile picture.
+              update their bio and change their profile picture. */}
               <br />
               <br />
               <p>
@@ -182,10 +181,10 @@ const ProjectsComponent = (props) => {
             </a>
           </div>
           <p className="project-description">
-            The goal of this project was to create a responsive landing page.
+            {/* The goal of this project was to create a responsive landing page.
             The responsiveness is achieved using breakpoint mixins from Sass,
             ensuring the site adjusts seamlessly for phone, tablet, and large
-            monitor screens
+            monitor screens */}
             <br />
             <br />
             <p>Tech used: React, CSS, Sass, React-Bootstrap</p>
