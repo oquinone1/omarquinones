@@ -331,7 +331,15 @@
     justify-content: space-around;
     border-radius: 10px;
     padding: 20px 0px;
+    margin: 0 0 20px 0;
+    border: 1px solid var(--green-highlighter);
 }
+
+/* .contact > .info{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-evenly;
+} */
 
 .contact > div{
     width: 40%;
@@ -339,14 +347,14 @@
 
 .info p{
     font-family: var(--syne-font);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .contact .contact-btns{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: flex-end;
     gap: 10px;
 }
 
