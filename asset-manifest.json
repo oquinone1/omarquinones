@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6893a7db.css",
-    "main.js": "/static/js/main.c6698b01.js",
+    "main.css": "/static/css/main.4decbdbe.css",
+    "main.js": "/static/js/main.1240f36c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/image-uploaded.png": "/static/media/image-uploaded.3ba890666fe23b38a1c1.png",
     "static/media/easybank.png": "/static/media/easybank.192cbca2bb3305248704.png",
     "static/media/task-management-2.png": "/static/media/task-management-2.96302efc42083c086b0c.png",
     "static/media/multi-step-form.png": "/static/media/multi-step-form.844747a82c826f08bba0.png",
     "index.html": "/index.html",
-    "static/media/freeCodeCampIcon.svg": "/static/media/freeCodeCampIcon.9fae4f65389de4dcb934d66ba08cb15b.svg",
-    "main.6893a7db.css.map": "/static/css/main.6893a7db.css.map",
-    "main.c6698b01.js.map": "/static/js/main.c6698b01.js.map",
+    "main.4decbdbe.css.map": "/static/css/main.4decbdbe.css.map",
+    "main.1240f36c.js.map": "/static/js/main.1240f36c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6893a7db.css",
-    "static/js/main.c6698b01.js"
+    "static/css/main.4decbdbe.css",
+    "static/js/main.1240f36c.js"
   ]
 }
