@@ -16,9 +16,12 @@
     --syne-font: "Syne",sans-serif;
     --section-font: 12px;
 
-    /* --container-max: 1120px;
-    --gutter: clamp(20px, 5vw, 48px); */
 }
+
+body {
+    margin: 0;
+    background-color: #06090D;
+  }
 
 
 .project-container{
@@ -26,6 +29,7 @@
     flex-flow: column nowrap;
     align-items: center;
     gap: 40px;
+    margin: 0;
 
     background:
     radial-gradient(900px 640px at 88% 6%,  rgba(74, 222, 128, .17), transparent 62%),  /* green, top right */
@@ -43,8 +47,7 @@
 
 .nav-container{
     display: flex;
-    flex-direction: row nowrap;
-    /* border: 1px solid red; */
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     padding: 3px 0;
@@ -381,4 +384,38 @@
     text-decoration: none;
     padding: 5px 20px;
     color: var(--green-color);
+}
+
+/* Tablet and smaller: stack everything */
+@media (max-width: 900px) {
+    .project-container > * { width: 90%; box-sizing: border-box; }
+
+    .hero { flex-direction: column; gap: 30px; }
+    .hero .frame,
+    .hero .description { width: 100%; }
+
+    .about { flex-direction: column; gap: 30px; }
+    .about > div { width: 100%; }
+
+    .card-container { gap: 20px; }
+    .card { width: calc(50% - 10px); box-sizing: border-box; }  
+
+    .skills .list { flex-direction: column; gap: 20px; }
+    .skills .list > * { width: 100%; }
+
+    .contact { flex-direction: column; gap: 20px; padding: 24px 20px; }
+    .contact > div { width: 100%; }
+}
+  
+  /* Phone */
+@media (max-width: 600px) {
+    .project-container { gap: 30px; }
+
+    .nav-container { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .nav-items ul { gap: 16px; flex-wrap: wrap; }
+
+    .hero .title { font-size: 36px; letter-spacing: -2px; }
+    .hero .btns { flex-wrap: wrap; }
+
+    .card { width: 100%; }                                     
 }
