@@ -4,8 +4,6 @@ My personal portfolio site, where I share who I am, what I'm interested in, the 
 
 **Live site:** [omarquinones.dev]
 
-![Portfolio screenshot](./screenshot.png)
-
 ## Built with
 
 - React (Vite)
